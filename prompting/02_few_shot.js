@@ -13,7 +13,12 @@ async function main() {
       messages: [
         {
           role: "user",
-          content: "Tell me a joke.",
+          content: `What is 2 + 2 equals?
+          Do not add anything else to the answer,  take the sample form the examples.
+          Examples: 
+          What is 5 + 4?
+          Expected Output: 9(Nine)
+          `,
         },
       ],
     });
